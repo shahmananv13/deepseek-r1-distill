@@ -7,7 +7,7 @@ To enable external access to the Colab notebook, you need to use ngrok. Follow t
 2. Once logged in, go to the **Dashboard** and find your **ngrok authentication token**.
 3. Copy the token and paste it into the Colab notebook when prompted to set up ngrok.
 
-**Note:** Without the ngrok token, the notebook will not establish the required external tunnel.
+**Note:** Without the ngrok token, the notebook will not expose api from local.
 
 ---
 
@@ -25,3 +25,5 @@ The notebook uses the `deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B` model, which i
 ---
 
 By following these instructions, you can ensure the smooth operation of the Colab notebook.
+
+Credits: https://medium.com/@hakimnaufal/trying-out-vllm-deepseek-r1-in-google-colab-a-quick-guide-a4fe682b8665
